@@ -1,0 +1,952 @@
+fileFormatVersion: 2
+guid: 6874e32f20f6f034592bca42104e8ff7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arena
+    100002: Arena Back
+    100004: Arena Banners
+    100006: Ball Boy 1 PROXY
+    100008: Ball Boy 2 PROXY
+    100010: Ball Boy 3 PROXY
+    100012: Ball Container
+    100014: Ball Girl 1 PROXY
+    100016: Ball Girl 2 PROXY
+    100018: Ball Girl 3 PROXY
+    100020: Barriers
+    100022: Blue Material
+    100024: Booth
+    100026: Chair Umpire Ref PROXY
+    100028: Clock Hours 1
+    100030: Clock Hours 2
+    100032: Clock Minutes 1
+    100034: Clock Minutes 2
+    100036: Court
+    100038: Court Banners
+    100040: Court Enterances
+    100042: Court Facing
+    100044: Court Lines
+    100046: Court Seats
+    100048: Fan F 01 PROXY
+    100050: Fan F 02 PROXY
+    100052: Fan F 03 PROXY
+    100054: Fan F 04 PROXY
+    100056: Fan F 05 PROXY
+    100058: Fan F 06 PROXY
+    100060: Fan F 07 PROXY
+    100062: Fan F 08 PROXY
+    100064: Fan F 09 PROXY
+    100066: Fan F 10 PROXY
+    100068: Fan F 11 PROXY
+    100070: Fan F 12 PROXY
+    100072: Fan F 13 PROXY
+    100074: Fan F 14 PROXY
+    100076: Fan F 15 PROXY
+    100078: Fan M 01 PROXY
+    100080: Fan M 02 PROXY
+    100082: Fan M 03 PROXY
+    100084: Fan M 04 PROXY
+    100086: Fan M 05 PROXY
+    100088: Fan M 06 PROXY
+    100090: Fan M 07 PROXY
+    100092: Fan M 08 PROXY
+    100094: Fan M 09 PROXY
+    100096: Fan M 10 PROXY
+    100098: Fan M 11 PROXY
+    100100: Fan M 12 PROXY
+    100102: Fan M 13 PROXY
+    100104: Fan M 14 PROXY
+    100106: Fan M 15 PROXY
+    100108: Fan M 16 PROXY
+    100110: Fan M 17 PROXY
+    100112: Fan M 18 PROXY
+    100114: Fan M 19 PROXY
+    100116: Fan M 20 PROXY
+    100118: Fan M 21 PROXY
+    100120: Fan M 22 PROXY
+    100122: Fan M 23 PROXY
+    100124: Fan M 24 PROXY
+    100126: Fan M 25 PROXY
+    100128: Fan M 26 PROXY
+    100130: Fan M 27 PROXY
+    100132: Fan M 28 PROXY
+    100134: Fan M 29 PROXY
+    100136: Fan M 30 PROXY
+    100138: Fans Distribution Splines S1
+    100140: Fans Distribution Splines S2
+    100142: Fans Distribution Splines S3
+    100144: Fans Distribution Splines S4
+    100146: Fans Distribution Splines S5
+    100148: Fridge
+    100150: Linesman 1 PROXY
+    100152: Linesman 2 PROXY
+    100154: Linesman 3 PROXY
+    100156: Linesman 4 PROXY
+    100158: Linesman 5 PROXY
+    100160: Linesman Seat 1
+    100162: Linesman Seat 10
+    100164: Linesman Seat 2
+    100166: Linesman Seat 3
+    100168: Linesman Seat 4
+    100170: Linesman Seat 5
+    100172: Linesman Seat 6
+    100174: Linesman Seat 7
+    100176: Linesman Seat 8
+    100178: Linesman Seat 9
+    100180: Lineswoman 1 PROXY
+    100182: Lineswoman 2 PROXY
+    100184: Lineswoman 3 PROXY
+    100186: Lineswoman 4 PROXY
+    100188: Lineswoman 5 PROXY
+    100190: MLC Box
+    100192: Net
+    100194: Partitions
+    100196: Player 1 PROXY
+    100198: Player 1 Rest Seat
+    100200: Player 1 Rest Seat Sun Visors
+    100202: Player 2 PROXY
+    100204: Player 2 Rest Seat
+    100206: Player 2 Rest Seat Sun Visors
+    100208: //RootNode
+    100210: Rolex Time Board 1
+    100212: Rolex Time Board 2
+    100214: Roof
+    100216: Roof Barriers
+    100218: Roof Cover 1
+    100220: Roof Cover 2
+    100222: Roof Lights 1
+    100224: Roof Lights 2
+    100226: Roof Lights 3
+    100228: Roof Lights 4
+    100230: Roof Structural Beams 1
+    100232: Roof Structural Beams 2
+    100234: Roof Ventilation
+    100236: Scene Sky
+    100238: Seat 1 C1 Folded PROXY
+    100240: Seat 1 C1 Open PROXY
+    100242: Seat 1 C2 Folded PROXY
+    100244: Seat 1 C2 Open PROXY
+    100246: Seat 1 C3 Folded PROXY
+    100248: Seat 1 C3 Open PROXY
+    100250: Seat 2 Folded PROXY
+    100252: Seat 2 Open PROXY
+    100254: Seats 1 Distribution Splines S1
+    100256: Seats 1 Distribution Splines S2
+    100258: Seats 1 Distribution Splines S3
+    100260: Seats 1 Distribution Splines S4
+    100262: Seats 1 Distribution Splines S5
+    100264: Seats 1 Distribution Splines S6
+    100266: Seats 1 Distribution Splines S7
+    100268: Seats 1 Distribution Splines S8
+    100270: Seats 2 Distribution Splines
+    100272: Serve Speed Board 1
+    100274: Serve Speed Board 2
+    100276: Speakers
+    100278: Staff Seats
+    100280: Stands
+    100282: Stands Sun Visors
+    100284: Table
+    100286: Table Sun Visor
+    100288: Umpire Chair
+    100290: Umpire Chair Sun Visor
+    100292: Under Roof Lights
+    100294: Video Screens
+    100296: VRayLight01
+    100298: VRayPhysicalCamera01
+    400000: Arena
+    400002: Arena Back
+    400004: Arena Banners
+    400006: Ball Boy 1 PROXY
+    400008: Ball Boy 2 PROXY
+    400010: Ball Boy 3 PROXY
+    400012: Ball Container
+    400014: Ball Girl 1 PROXY
+    400016: Ball Girl 2 PROXY
+    400018: Ball Girl 3 PROXY
+    400020: Barriers
+    400022: Blue Material
+    400024: Booth
+    400026: Chair Umpire Ref PROXY
+    400028: Clock Hours 1
+    400030: Clock Hours 2
+    400032: Clock Minutes 1
+    400034: Clock Minutes 2
+    400036: Court
+    400038: Court Banners
+    400040: Court Enterances
+    400042: Court Facing
+    400044: Court Lines
+    400046: Court Seats
+    400048: Fan F 01 PROXY
+    400050: Fan F 02 PROXY
+    400052: Fan F 03 PROXY
+    400054: Fan F 04 PROXY
+    400056: Fan F 05 PROXY
+    400058: Fan F 06 PROXY
+    400060: Fan F 07 PROXY
+    400062: Fan F 08 PROXY
+    400064: Fan F 09 PROXY
+    400066: Fan F 10 PROXY
+    400068: Fan F 11 PROXY
+    400070: Fan F 12 PROXY
+    400072: Fan F 13 PROXY
+    400074: Fan F 14 PROXY
+    400076: Fan F 15 PROXY
+    400078: Fan M 01 PROXY
+    400080: Fan M 02 PROXY
+    400082: Fan M 03 PROXY
+    400084: Fan M 04 PROXY
+    400086: Fan M 05 PROXY
+    400088: Fan M 06 PROXY
+    400090: Fan M 07 PROXY
+    400092: Fan M 08 PROXY
+    400094: Fan M 09 PROXY
+    400096: Fan M 10 PROXY
+    400098: Fan M 11 PROXY
+    400100: Fan M 12 PROXY
+    400102: Fan M 13 PROXY
+    400104: Fan M 14 PROXY
+    400106: Fan M 15 PROXY
+    400108: Fan M 16 PROXY
+    400110: Fan M 17 PROXY
+    400112: Fan M 18 PROXY
+    400114: Fan M 19 PROXY
+    400116: Fan M 20 PROXY
+    400118: Fan M 21 PROXY
+    400120: Fan M 22 PROXY
+    400122: Fan M 23 PROXY
+    400124: Fan M 24 PROXY
+    400126: Fan M 25 PROXY
+    400128: Fan M 26 PROXY
+    400130: Fan M 27 PROXY
+    400132: Fan M 28 PROXY
+    400134: Fan M 29 PROXY
+    400136: Fan M 30 PROXY
+    400138: Fans Distribution Splines S1
+    400140: Fans Distribution Splines S2
+    400142: Fans Distribution Splines S3
+    400144: Fans Distribution Splines S4
+    400146: Fans Distribution Splines S5
+    400148: Fridge
+    400150: Linesman 1 PROXY
+    400152: Linesman 2 PROXY
+    400154: Linesman 3 PROXY
+    400156: Linesman 4 PROXY
+    400158: Linesman 5 PROXY
+    400160: Linesman Seat 1
+    400162: Linesman Seat 10
+    400164: Linesman Seat 2
+    400166: Linesman Seat 3
+    400168: Linesman Seat 4
+    400170: Linesman Seat 5
+    400172: Linesman Seat 6
+    400174: Linesman Seat 7
+    400176: Linesman Seat 8
+    400178: Linesman Seat 9
+    400180: Lineswoman 1 PROXY
+    400182: Lineswoman 2 PROXY
+    400184: Lineswoman 3 PROXY
+    400186: Lineswoman 4 PROXY
+    400188: Lineswoman 5 PROXY
+    400190: MLC Box
+    400192: Net
+    400194: Partitions
+    400196: Player 1 PROXY
+    400198: Player 1 Rest Seat
+    400200: Player 1 Rest Seat Sun Visors
+    400202: Player 2 PROXY
+    400204: Player 2 Rest Seat
+    400206: Player 2 Rest Seat Sun Visors
+    400208: //RootNode
+    400210: Rolex Time Board 1
+    400212: Rolex Time Board 2
+    400214: Roof
+    400216: Roof Barriers
+    400218: Roof Cover 1
+    400220: Roof Cover 2
+    400222: Roof Lights 1
+    400224: Roof Lights 2
+    400226: Roof Lights 3
+    400228: Roof Lights 4
+    400230: Roof Structural Beams 1
+    400232: Roof Structural Beams 2
+    400234: Roof Ventilation
+    400236: Scene Sky
+    400238: Seat 1 C1 Folded PROXY
+    400240: Seat 1 C1 Open PROXY
+    400242: Seat 1 C2 Folded PROXY
+    400244: Seat 1 C2 Open PROXY
+    400246: Seat 1 C3 Folded PROXY
+    400248: Seat 1 C3 Open PROXY
+    400250: Seat 2 Folded PROXY
+    400252: Seat 2 Open PROXY
+    400254: Seats 1 Distribution Splines S1
+    400256: Seats 1 Distribution Splines S2
+    400258: Seats 1 Distribution Splines S3
+    400260: Seats 1 Distribution Splines S4
+    400262: Seats 1 Distribution Splines S5
+    400264: Seats 1 Distribution Splines S6
+    400266: Seats 1 Distribution Splines S7
+    400268: Seats 1 Distribution Splines S8
+    400270: Seats 2 Distribution Splines
+    400272: Serve Speed Board 1
+    400274: Serve Speed Board 2
+    400276: Speakers
+    400278: Staff Seats
+    400280: Stands
+    400282: Stands Sun Visors
+    400284: Table
+    400286: Table Sun Visor
+    400288: Umpire Chair
+    400290: Umpire Chair Sun Visor
+    400292: Under Roof Lights
+    400294: Video Screens
+    400296: VRayLight01
+    400298: VRayPhysicalCamera01
+    2100000: Scene Sky
+    2100002: Brick 2
+    2100004: Concrete 1
+    2100006: Carpet Flooring
+    2100008: Concrete 2
+    2100010: Brick 1
+    2100012: Grey
+    2100014: Black
+    2100016: Stair Step
+    2100018: Ventilation Grille
+    2100020: Metal 1 (Barriers)
+    2100022: Exit Sign
+    2100024: White
+    2100026: Blue
+    2100028: Dark Blue
+    2100030: Metal 2
+    2100032: Windows
+    2100034: Australian Open Logo
+    2100036: Melbourne Logo
+    2100038: Banner 5
+    2100040: Blue Material
+    2100042: Blue Material Logo
+    2100044: Blue Material (Transparent)
+    2100046: Back
+    2100048: Banner 2
+    2100050: Banner 11
+    2100052: Banner 10
+    2100054: Banner 12
+    2100056: Banner 14
+    2100058: Banner 13
+    2100060: Banner 8
+    2100062: Banner 9
+    2100064: Banner 4
+    2100066: Banner 7
+    2100068: Banner 6
+    2100070: Banner 3
+    2100072: Banner 1
+    2100074: Banner 18
+    2100076: Banner 19
+    2100078: Banner 20
+    2100080: Metal
+    2100082: Under Roof Lights
+    2100084: Chrome Brushed
+    2100086: Spot Lights Cover
+    2100088: White Metal
+    2100090: Lights Inner Metal
+    2100092: Spot Lights Glass
+    2100094: Roof Plates
+    2100096: Roof Grid
+    2100098: Video Screen 2
+    2100100: Video Screen Banner 1
+    2100102: Video Screen 1
+    2100104: Video Screen Banner 2
+    2100106: Metal 3
+    2100108: Umpire Chair Right
+    2100110: Umpire Chair Left
+    2100112: Sunvisor w_ Logo
+    2100114: Logo
+    2100116: White Leather
+    2100118: Court
+    2100120: Net 2
+    2100122: Net
+    2100124: Chrome
+    2100126: Court Lines
+    2100128: Screen
+    2100130: Logo 2A
+    2100132: Logo 1A
+    2100134: Facing
+    2100136: Logo 1
+    2100138: Tennis Ball
+    2100140: Tennis Racket 1
+    2100142: Player 1
+    2100144: Player 1 Cap
+    2100146: Tennis Racket 2
+    2100148: Player 2
+    2100150: Linesman 1
+    2100152: Linesman Cap
+    2100154: Linesman 2
+    2100156: Linesman 3
+    2100158: Linesman 4
+    2100160: Linesman 5
+    2100162: Lineswoman 1
+    2100164: Lineswoman Cap
+    2100166: Lineswoman 2
+    2100168: Lineswoman 3
+    2100170: Lineswoman 4
+    2100172: Lineswoman 5
+    2100174: Chair Umpire
+    2100176: Ball Boy 3
+    2100178: Ball Boy_Girl Cap
+    2100180: Ball Boy 1
+    2100182: Ball Boy 2
+    2100184: Ball Girl 1
+    2100186: Ball Girl 2
+    2100188: Ball Girl 3
+    2100190: Seat
+    2100192: Black Metal
+    2100194: Metal (Barriers)
+    2100196: Booth Windows
+    2100198: Booth Banner
+    2100200: Pink
+    2100202: Glass
+    2100204: Gold Frame
+    2100206: Board
+    2100208: Time
+    2100210: Gold Clock
+    2100212: Clock
+    2100214: Umbrella
+    2100216: Fan M 01
+    2100218: Cap 1
+    2100220: Fan M 02
+    2100222: Sunglasses Glass
+    2100224: Sunglasses Plastic
+    2100226: Fan M 03
+    2100228: Fan M 04
+    2100230: Fan M 05
+    2100232: Fan M 06
+    2100234: Cap 2
+    2100236: Fan M 07
+    2100238: Fan M 08
+    2100240: Fan M 09
+    2100242: Cap 3
+    2100244: Fan M 10
+    2100246: Fan M 11
+    2100248: Hat Stripe
+    2100250: Hat
+    2100252: Fan M 12
+    2100254: Fan M 13
+    2100256: Fan M 14
+    2100258: Fan M 15
+    2100260: Cap 4
+    2100262: Fan M 16
+    2100264: Fan M 17
+    2100266: Fan M 18
+    2100268: Fan M 19
+    2100270: Fan M 20
+    2100272: Fan M 21
+    2100274: Fan M 22
+    2100276: Fan M 23
+    2100278: Fan M 24
+    2100280: Fan M 25
+    2100282: Fan M 26
+    2100284: Fan M 27
+    2100286: Fan M 28
+    2100288: Fan M 29
+    2100290: Fan M 30
+    2100292: Fan F 01
+    2100294: Fan F 02
+    2100296: Fan F 03
+    2100298: Hair Blonde
+    2100300: Fan F 04
+    2100302: Fan F 05
+    2100304: Hair Rubber
+    2100306: Fan F 06
+    2100308: Hair Brown
+    2100310: Fan F 07
+    2100312: Fan F 08
+    2100314: Fan F 09
+    2100316: Fan F 10
+    2100318: Fan F 11
+    2100320: Hair Black
+    2100322: Fan F 12
+    2100324: Fan F 13
+    2100326: Fan F 14
+    2100328: Fan F 15
+    2300000: Arena
+    2300002: Arena Back
+    2300004: Arena Banners
+    2300006: Ball Boy 1 PROXY
+    2300008: Ball Boy 2 PROXY
+    2300010: Ball Boy 3 PROXY
+    2300012: Ball Container
+    2300014: Ball Girl 1 PROXY
+    2300016: Ball Girl 2 PROXY
+    2300018: Ball Girl 3 PROXY
+    2300020: Barriers
+    2300022: Blue Material
+    2300024: Booth
+    2300026: Chair Umpire Ref PROXY
+    2300028: Clock Hours 1
+    2300030: Clock Hours 2
+    2300032: Clock Minutes 1
+    2300034: Clock Minutes 2
+    2300036: Court
+    2300038: Court Banners
+    2300040: Court Enterances
+    2300042: Court Facing
+    2300044: Court Lines
+    2300046: Court Seats
+    2300048: Fan F 01 PROXY
+    2300050: Fan F 02 PROXY
+    2300052: Fan F 03 PROXY
+    2300054: Fan F 04 PROXY
+    2300056: Fan F 05 PROXY
+    2300058: Fan F 06 PROXY
+    2300060: Fan F 07 PROXY
+    2300062: Fan F 08 PROXY
+    2300064: Fan F 09 PROXY
+    2300066: Fan F 10 PROXY
+    2300068: Fan F 11 PROXY
+    2300070: Fan F 12 PROXY
+    2300072: Fan F 13 PROXY
+    2300074: Fan F 14 PROXY
+    2300076: Fan F 15 PROXY
+    2300078: Fan M 01 PROXY
+    2300080: Fan M 02 PROXY
+    2300082: Fan M 03 PROXY
+    2300084: Fan M 04 PROXY
+    2300086: Fan M 05 PROXY
+    2300088: Fan M 06 PROXY
+    2300090: Fan M 07 PROXY
+    2300092: Fan M 08 PROXY
+    2300094: Fan M 09 PROXY
+    2300096: Fan M 10 PROXY
+    2300098: Fan M 11 PROXY
+    2300100: Fan M 12 PROXY
+    2300102: Fan M 13 PROXY
+    2300104: Fan M 14 PROXY
+    2300106: Fan M 15 PROXY
+    2300108: Fan M 16 PROXY
+    2300110: Fan M 17 PROXY
+    2300112: Fan M 18 PROXY
+    2300114: Fan M 19 PROXY
+    2300116: Fan M 20 PROXY
+    2300118: Fan M 21 PROXY
+    2300120: Fan M 22 PROXY
+    2300122: Fan M 23 PROXY
+    2300124: Fan M 24 PROXY
+    2300126: Fan M 25 PROXY
+    2300128: Fan M 26 PROXY
+    2300130: Fan M 27 PROXY
+    2300132: Fan M 28 PROXY
+    2300134: Fan M 29 PROXY
+    2300136: Fan M 30 PROXY
+    2300138: Fridge
+    2300140: Linesman 1 PROXY
+    2300142: Linesman 2 PROXY
+    2300144: Linesman 3 PROXY
+    2300146: Linesman 4 PROXY
+    2300148: Linesman 5 PROXY
+    2300150: Linesman Seat 1
+    2300152: Linesman Seat 10
+    2300154: Linesman Seat 2
+    2300156: Linesman Seat 3
+    2300158: Linesman Seat 4
+    2300160: Linesman Seat 5
+    2300162: Linesman Seat 6
+    2300164: Linesman Seat 7
+    2300166: Linesman Seat 8
+    2300168: Linesman Seat 9
+    2300170: Lineswoman 1 PROXY
+    2300172: Lineswoman 2 PROXY
+    2300174: Lineswoman 3 PROXY
+    2300176: Lineswoman 4 PROXY
+    2300178: Lineswoman 5 PROXY
+    2300180: MLC Box
+    2300182: Net
+    2300184: Partitions
+    2300186: Player 1 PROXY
+    2300188: Player 1 Rest Seat
+    2300190: Player 1 Rest Seat Sun Visors
+    2300192: Player 2 PROXY
+    2300194: Player 2 Rest Seat
+    2300196: Player 2 Rest Seat Sun Visors
+    2300198: Rolex Time Board 1
+    2300200: Rolex Time Board 2
+    2300202: Roof
+    2300204: Roof Barriers
+    2300206: Roof Cover 1
+    2300208: Roof Cover 2
+    2300210: Roof Lights 1
+    2300212: Roof Lights 2
+    2300214: Roof Lights 3
+    2300216: Roof Lights 4
+    2300218: Roof Structural Beams 1
+    2300220: Roof Structural Beams 2
+    2300222: Roof Ventilation
+    2300224: Scene Sky
+    2300226: Seat 1 C1 Folded PROXY
+    2300228: Seat 1 C1 Open PROXY
+    2300230: Seat 1 C2 Folded PROXY
+    2300232: Seat 1 C2 Open PROXY
+    2300234: Seat 1 C3 Folded PROXY
+    2300236: Seat 1 C3 Open PROXY
+    2300238: Seat 2 Folded PROXY
+    2300240: Seat 2 Open PROXY
+    2300242: Serve Speed Board 1
+    2300244: Serve Speed Board 2
+    2300246: Speakers
+    2300248: Staff Seats
+    2300250: Stands
+    2300252: Stands Sun Visors
+    2300254: Table
+    2300256: Table Sun Visor
+    2300258: Umpire Chair
+    2300260: Umpire Chair Sun Visor
+    2300262: Under Roof Lights
+    2300264: Video Screens
+    3300000: Arena
+    3300002: Arena Back
+    3300004: Arena Banners
+    3300006: Ball Boy 1 PROXY
+    3300008: Ball Boy 2 PROXY
+    3300010: Ball Boy 3 PROXY
+    3300012: Ball Container
+    3300014: Ball Girl 1 PROXY
+    3300016: Ball Girl 2 PROXY
+    3300018: Ball Girl 3 PROXY
+    3300020: Barriers
+    3300022: Blue Material
+    3300024: Booth
+    3300026: Chair Umpire Ref PROXY
+    3300028: Clock Hours 1
+    3300030: Clock Hours 2
+    3300032: Clock Minutes 1
+    3300034: Clock Minutes 2
+    3300036: Court
+    3300038: Court Banners
+    3300040: Court Enterances
+    3300042: Court Facing
+    3300044: Court Lines
+    3300046: Court Seats
+    3300048: Fan F 01 PROXY
+    3300050: Fan F 02 PROXY
+    3300052: Fan F 03 PROXY
+    3300054: Fan F 04 PROXY
+    3300056: Fan F 05 PROXY
+    3300058: Fan F 06 PROXY
+    3300060: Fan F 07 PROXY
+    3300062: Fan F 08 PROXY
+    3300064: Fan F 09 PROXY
+    3300066: Fan F 10 PROXY
+    3300068: Fan F 11 PROXY
+    3300070: Fan F 12 PROXY
+    3300072: Fan F 13 PROXY
+    3300074: Fan F 14 PROXY
+    3300076: Fan F 15 PROXY
+    3300078: Fan M 01 PROXY
+    3300080: Fan M 02 PROXY
+    3300082: Fan M 03 PROXY
+    3300084: Fan M 04 PROXY
+    3300086: Fan M 05 PROXY
+    3300088: Fan M 06 PROXY
+    3300090: Fan M 07 PROXY
+    3300092: Fan M 08 PROXY
+    3300094: Fan M 09 PROXY
+    3300096: Fan M 10 PROXY
+    3300098: Fan M 11 PROXY
+    3300100: Fan M 12 PROXY
+    3300102: Fan M 13 PROXY
+    3300104: Fan M 14 PROXY
+    3300106: Fan M 15 PROXY
+    3300108: Fan M 16 PROXY
+    3300110: Fan M 17 PROXY
+    3300112: Fan M 18 PROXY
+    3300114: Fan M 19 PROXY
+    3300116: Fan M 20 PROXY
+    3300118: Fan M 21 PROXY
+    3300120: Fan M 22 PROXY
+    3300122: Fan M 23 PROXY
+    3300124: Fan M 24 PROXY
+    3300126: Fan M 25 PROXY
+    3300128: Fan M 26 PROXY
+    3300130: Fan M 27 PROXY
+    3300132: Fan M 28 PROXY
+    3300134: Fan M 29 PROXY
+    3300136: Fan M 30 PROXY
+    3300138: Fridge
+    3300140: Linesman 1 PROXY
+    3300142: Linesman 2 PROXY
+    3300144: Linesman 3 PROXY
+    3300146: Linesman 4 PROXY
+    3300148: Linesman 5 PROXY
+    3300150: Linesman Seat 1
+    3300152: Linesman Seat 10
+    3300154: Linesman Seat 2
+    3300156: Linesman Seat 3
+    3300158: Linesman Seat 4
+    3300160: Linesman Seat 5
+    3300162: Linesman Seat 6
+    3300164: Linesman Seat 7
+    3300166: Linesman Seat 8
+    3300168: Linesman Seat 9
+    3300170: Lineswoman 1 PROXY
+    3300172: Lineswoman 2 PROXY
+    3300174: Lineswoman 3 PROXY
+    3300176: Lineswoman 4 PROXY
+    3300178: Lineswoman 5 PROXY
+    3300180: MLC Box
+    3300182: Net
+    3300184: Partitions
+    3300186: Player 1 PROXY
+    3300188: Player 1 Rest Seat
+    3300190: Player 1 Rest Seat Sun Visors
+    3300192: Player 2 PROXY
+    3300194: Player 2 Rest Seat
+    3300196: Player 2 Rest Seat Sun Visors
+    3300198: Rolex Time Board 1
+    3300200: Rolex Time Board 2
+    3300202: Roof
+    3300204: Roof Barriers
+    3300206: Roof Cover 1
+    3300208: Roof Cover 2
+    3300210: Roof Lights 1
+    3300212: Roof Lights 2
+    3300214: Roof Lights 3
+    3300216: Roof Lights 4
+    3300218: Roof Structural Beams 1
+    3300220: Roof Structural Beams 2
+    3300222: Roof Ventilation
+    3300224: Scene Sky
+    3300226: Seat 1 C1 Folded PROXY
+    3300228: Seat 1 C1 Open PROXY
+    3300230: Seat 1 C2 Folded PROXY
+    3300232: Seat 1 C2 Open PROXY
+    3300234: Seat 1 C3 Folded PROXY
+    3300236: Seat 1 C3 Open PROXY
+    3300238: Seat 2 Folded PROXY
+    3300240: Seat 2 Open PROXY
+    3300242: Serve Speed Board 1
+    3300244: Serve Speed Board 2
+    3300246: Speakers
+    3300248: Staff Seats
+    3300250: Stands
+    3300252: Stands Sun Visors
+    3300254: Table
+    3300256: Table Sun Visor
+    3300258: Umpire Chair
+    3300260: Umpire Chair Sun Visor
+    3300262: Under Roof Lights
+    3300264: Video Screens
+    4300000: Scene Sky
+    4300002: Arena
+    4300004: Court Enterances
+    4300006: Partitions
+    4300008: Blue Material
+    4300010: Arena Banners
+    4300012: Barriers
+    4300014: Arena Back
+    4300016: Under Roof Lights
+    4300018: Roof Ventilation
+    4300020: Roof Lights 2
+    4300022: Roof Lights 1
+    4300024: Roof Lights 3
+    4300026: Roof Barriers
+    4300028: Roof
+    4300030: Roof Cover 2
+    4300032: Roof Structural Beams 2
+    4300034: Roof Cover 1
+    4300036: Roof Structural Beams 1
+    4300038: Video Screens
+    4300040: Roof Lights 4
+    4300042: Speakers
+    4300044: Umpire Chair
+    4300046: Umpire Chair Sun Visor
+    4300048: Table
+    4300050: Stands Sun Visors
+    4300052: Player 1 Rest Seat Sun Visors
+    4300054: Player 1 Rest Seat
+    4300056: Court
+    4300058: Net
+    4300060: Court Lines
+    4300062: Serve Speed Board 1
+    4300064: Linesman Seat 1
+    4300066: Player 1 PROXY
+    4300068: Player 2 PROXY
+    4300070: Linesman 1 PROXY
+    4300072: Linesman 2 PROXY
+    4300074: Linesman 3 PROXY
+    4300076: Linesman 4 PROXY
+    4300078: Linesman 5 PROXY
+    4300080: Lineswoman 1 PROXY
+    4300082: Lineswoman 2 PROXY
+    4300084: Lineswoman 3 PROXY
+    4300086: Lineswoman 4 PROXY
+    4300088: Lineswoman 5 PROXY
+    4300090: Chair Umpire Ref PROXY
+    4300092: Ball Boy 3 PROXY
+    4300094: Player 2 Rest Seat Sun Visors
+    4300096: Ball Boy 1 PROXY
+    4300098: Ball Boy 2 PROXY
+    4300100: Ball Girl 1 PROXY
+    4300102: Ball Girl 2 PROXY
+    4300104: Ball Girl 3 PROXY
+    4300106: Court Seats
+    4300108: Staff Seats
+    4300110: Stands
+    4300112: Court Facing
+    4300114: Booth
+    4300116: MLC Box
+    4300118: Fridge
+    4300120: Ball Container
+    4300122: Rolex Time Board 1
+    4300124: Clock Hours 1
+    4300126: Clock Minutes 1
+    4300128: Table Sun Visor
+    4300130: Court Banners
+    4300132: Linesman Seat 2
+    4300134: Linesman Seat 3
+    4300136: Linesman Seat 4
+    4300138: Linesman Seat 5
+    4300140: Linesman Seat 6
+    4300142: Linesman Seat 7
+    4300144: Linesman Seat 8
+    4300146: Linesman Seat 9
+    4300148: Linesman Seat 10
+    4300150: Player 2 Rest Seat
+    4300152: Rolex Time Board 2
+    4300154: Clock Hours 2
+    4300156: Clock Minutes 2
+    4300158: Serve Speed Board 2
+    4300160: Seat 1 C1 Folded PROXY
+    4300162: Seat 1 C2 Folded PROXY
+    4300164: Seat 1 C3 Folded PROXY
+    4300166: Seat 2 Folded PROXY
+    4300168: Seat 1 C2 Open PROXY
+    4300170: Seat 1 C3 Open PROXY
+    4300172: Seat 2 Open PROXY
+    4300174: Seat 1 C1 Open PROXY
+    4300176: Fan M 01 PROXY
+    4300178: Fan M 02 PROXY
+    4300180: Fan M 03 PROXY
+    4300182: Fan M 04 PROXY
+    4300184: Fan M 05 PROXY
+    4300186: Fan M 06 PROXY
+    4300188: Fan M 07 PROXY
+    4300190: Fan M 08 PROXY
+    4300192: Fan M 09 PROXY
+    4300194: Fan M 10 PROXY
+    4300196: Fan M 11 PROXY
+    4300198: Fan M 12 PROXY
+    4300200: Fan M 13 PROXY
+    4300202: Fan M 14 PROXY
+    4300204: Fan M 15 PROXY
+    4300206: Fan M 16 PROXY
+    4300208: Fan M 17 PROXY
+    4300210: Fan M 18 PROXY
+    4300212: Fan M 19 PROXY
+    4300214: Fan M 20 PROXY
+    4300216: Fan M 21 PROXY
+    4300218: Fan M 22 PROXY
+    4300220: Fan M 23 PROXY
+    4300222: Fan M 24 PROXY
+    4300224: Fan M 25 PROXY
+    4300226: Fan M 26 PROXY
+    4300228: Fan M 27 PROXY
+    4300230: Fan M 28 PROXY
+    4300232: Fan M 29 PROXY
+    4300234: Fan M 30 PROXY
+    4300236: Fan F 01 PROXY
+    4300238: Fan F 02 PROXY
+    4300240: Fan F 03 PROXY
+    4300242: Fan F 04 PROXY
+    4300244: Fan F 05 PROXY
+    4300246: Fan F 06 PROXY
+    4300248: Fan F 07 PROXY
+    4300250: Fan F 08 PROXY
+    4300252: Fan F 09 PROXY
+    4300254: Fan F 10 PROXY
+    4300256: Fan F 11 PROXY
+    4300258: Fan F 12 PROXY
+    4300260: Fan F 13 PROXY
+    4300262: Fan F 14 PROXY
+    4300264: Fan F 15 PROXY
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

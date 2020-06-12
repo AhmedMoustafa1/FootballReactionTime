@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 0f8f16281023bc447b4edab111d8e64b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BlueMetal
+    100002: Concrete
+    100004: Concrete1
+    100006: FootballPitch
+    100008: Glass
+    100010: Lights
+    100012: Plaster
+    100014: Plastic
+    100016: SeatBack
+    100018: SeatFront
+    100020: Signs
+    100022: Steel
+    100024: //RootNode
+    400000: BlueMetal
+    400002: Concrete
+    400004: Concrete1
+    400006: FootballPitch
+    400008: Glass
+    400010: Lights
+    400012: Plaster
+    400014: Plastic
+    400016: SeatBack
+    400018: SeatFront
+    400020: Signs
+    400022: Steel
+    400024: //RootNode
+    2100000: PaintedWhiteShader
+    2100002: FabricShader
+    2100004: DarkRubberShader
+    2100006: FencingShader
+    2100008: BlueGlassShader
+    2100010: Concrete1Shader
+    2100012: BluePlasticShader
+    2100014: GrassShader
+    2100016: SignShader
+    2100018: SteelShader
+    2100020: PlasterShader
+    2100022: WhitePlasticShader
+    2100024: BlackMetalShader
+    2100026: LightShader
+    2100028: BlueMetalShader
+    2100030: ConcreteShader
+    2100032: SeatFrontShader
+    2100034: SeatBackShader
+    2300000: BlueMetal
+    2300002: Concrete
+    2300004: Concrete1
+    2300006: FootballPitch
+    2300008: Glass
+    2300010: Lights
+    2300012: Plaster
+    2300014: Plastic
+    2300016: SeatBack
+    2300018: SeatFront
+    2300020: Signs
+    2300022: Steel
+    3300000: BlueMetal
+    3300002: Concrete
+    3300004: Concrete1
+    3300006: FootballPitch
+    3300008: Glass
+    3300010: Lights
+    3300012: Plaster
+    3300014: Plastic
+    3300016: SeatBack
+    3300018: SeatFront
+    3300020: Signs
+    3300022: Steel
+    4300000: FootballPitch
+    4300002: Signs
+    4300004: Steel
+    4300006: Plaster
+    4300008: Plastic
+    4300010: Lights
+    4300012: BlueMetal
+    4300014: Concrete
+    4300016: Concrete1
+    4300018: Glass
+    4300020: SeatFront
+    4300022: SeatBack
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackMetalShader
+    second: {fileID: 2100000, guid: 58d8c3387dc3d2e4d905ad27977ddb3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueGlassShader
+    second: {fileID: 2100000, guid: be9056d2fd12c1c49a45ab24707bbe58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueMetalShader
+    second: {fileID: 2100000, guid: a98121138ad5d0c45b69d74d4f004da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BluePlasticShader
+    second: {fileID: 2100000, guid: 2e3217773a697d0499199d58cc76bf99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete1Shader
+    second: {fileID: 2100000, guid: bf137670e69fccf44877a30ac89f4f37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ConcreteShader
+    second: {fileID: 2100000, guid: 53774d7eb7c2efc41aa54526725fbc51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkRubberShader
+    second: {fileID: 2100000, guid: 5a9e0f40cda0c1c41ba867cbcd7b82e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FabricShader
+    second: {fileID: 2100000, guid: 24977cee8b24a1c43b6c1e09afc87525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FencingShader
+    second: {fileID: 2100000, guid: db2aa959c10c847468932c46cac9d143, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrassShader
+    second: {fileID: 2100000, guid: 1398ef66d164b4e49b7a1a3962d5aca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightShader
+    second: {fileID: 2100000, guid: 23a957f88d8f2cb44ba1e6318533ad2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaintedWhiteShader
+    second: {fileID: 2100000, guid: 4a3d70e63b175fa49a33a0415612c3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasterShader
+    second: {fileID: 2100000, guid: da9d258bf4a9b3041aab42a205604d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SeatBackShader
+    second: {fileID: 2100000, guid: 3babf8d607cca20418a348cab384c716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SeatFrontShader
+    second: {fileID: 2100000, guid: e9e28088f3470364494f3a08640296b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SignShader
+    second: {fileID: 2100000, guid: 1f066999e2d05764bb7530dd8a883870, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SteelShader
+    second: {fileID: 2100000, guid: ae881c50e032f0f46a07a561074ea1d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhitePlasticShader
+    second: {fileID: 2100000, guid: a10000c311f3c314ea8115ad80ab4b77, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
