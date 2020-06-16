@@ -18,7 +18,7 @@ public class UserAccountManager : MonoBehaviour {
 
     public bool AuthenticateUserExist(UserData _thisUser)
     {
-        directory = "C:/VR-VLBL_Users/"+_thisUser.lastName+" "+ _thisUser.firstName;
+        directory = "C:/VRSoccer_Users/"+_thisUser.lastName+" "+ _thisUser.firstName;
         if (!System.IO.File.Exists(directory))
         {
             return true;
@@ -37,14 +37,14 @@ public class UserAccountManager : MonoBehaviour {
     {
         form = JsonUtility.ToJson(_thisUser);
 
-        if (Directory.Exists("C:/VR-VLBL_Users/" + _thisUser.lastName + " " + _thisUser.firstName))
+        if (Directory.Exists("C:/VRSoccer_Users/" + _thisUser.lastName + " " + _thisUser.firstName))
         {
-            directory = "C:/VR-VLBL_Users/" + _thisUser.lastName + " " + _thisUser.firstName; 
+            directory = "C:/VRSoccer_Users/" + _thisUser.lastName + " " + _thisUser.firstName; 
         }
         else
         {
-            Directory.CreateDirectory("C:/VR-VLBL_Users/" + _thisUser.lastName + " " + _thisUser.firstName);
-            directory = "C:/VR-VLBL_Users/"  +_thisUser.lastName + " " + _thisUser.firstName;
+            Directory.CreateDirectory("C:/VRSoccer_Users/" + _thisUser.lastName + " " + _thisUser.firstName);
+            directory = "C:/VRSoccer_Users/"  +_thisUser.lastName + " " + _thisUser.firstName;
 
         }
 
@@ -68,7 +68,7 @@ public class UserAccountManager : MonoBehaviour {
         string LastName = user.Substring(user.IndexOf(" ") + 1);
         user = LastName + " " + FirstName;
 
-        directory = "C:/VR-VLBL_Users/" + user;
+        directory = "C:/VRSoccer_Users/" + user;
      
         if (System.IO.File.Exists(directory + "\\" + user + "-File.txt")) { 
             string text = System.IO.File.ReadAllText(directory + "\\" + user + "-File.txt");

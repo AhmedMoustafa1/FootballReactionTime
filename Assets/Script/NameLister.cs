@@ -84,9 +84,9 @@ public class NameLister : MonoBehaviour {
 
     void CreateOriginalList()
     {
-        if (System.IO.Directory.Exists(@"C:/VR-VLBL_Users/") == false) return; //NEW
+        if (System.IO.Directory.Exists(@"C:/VRSoccer_Users/") == false) return; //NEW
 
-        foreach (var d in System.IO.Directory.GetDirectories(@"C:/VR-VLBL_Users/"))
+        foreach (var d in System.IO.Directory.GetDirectories(@"C:/VRSoccer_Users/"))
         {
             var dir = new DirectoryInfo(d);
             string dirName = dir.Name;
