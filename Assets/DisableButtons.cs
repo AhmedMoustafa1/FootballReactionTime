@@ -12,11 +12,14 @@ public class DisableButtons : MonoBehaviour {
 	public int value3=3;
 	// Use this for initialization
 	void Awake () {
-		button = this.gameObject.GetComponent<BoxCollider>();
-		DisableButton();
+		//button = this.gameObject.GetComponent<BoxCollider>();
+		//DisableButton();
 	}
 	
+	public void Start()
+	{
 
+	}
 	public void DisableButton()
 	{
 

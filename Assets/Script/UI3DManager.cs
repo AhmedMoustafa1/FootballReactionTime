@@ -66,6 +66,7 @@ public class UI3DManager : MonoBehaviour {
     {
         buttonSizeSelectionPanel.gameObject.SetActive(false);
         exerciseSelectionPanel.gameObject.SetActive(true);
+        Debug.Log("");
     }
 
     //Exercise Buttons Panel
@@ -73,21 +74,29 @@ public class UI3DManager : MonoBehaviour {
     {
         exerciseSelectionPanel.gameObject.SetActive(false);
         exerciseOnePanel.gameObject.SetActive(true);
+        Debug.Log("");
+
     }
     public void OnExerciseTwoPressed()
     {
         exerciseSelectionPanel.gameObject.SetActive(false);
         exerciseTwoPanel.gameObject.SetActive(true);
+        Debug.Log("");
+
     }
     public void OnExerciseThreePressed()
     {
         exerciseSelectionPanel.gameObject.SetActive(false);
         exerciseThreePanel.gameObject.SetActive(true);
+        Debug.Log("");
+
     }
     public void OnExerciseFourPressed()
     {
         exerciseSelectionPanel.gameObject.SetActive(false);
         exerciseFourPanel.gameObject.SetActive(true);
+        Debug.Log("");
+
     }
 
 
@@ -98,6 +107,8 @@ public class UI3DManager : MonoBehaviour {
         exerciseOnePanel.gameObject.SetActive(false);
 
         InGamePanel.gameObject.SetActive(true);
+        Debug.Log("OnExerciseOneButtonsPressed");
+
     }
 
     //Exercise 2
@@ -106,6 +117,8 @@ public class UI3DManager : MonoBehaviour {
         exerciseSelectionPanel.gameObject.SetActive(false);
         exerciseTwoPanel.gameObject.SetActive(false);
         InGamePanel.gameObject.SetActive(true);
+        Debug.Log("OnExerciseTwoButtonsPressed");
+
     }
 
     //Exercise 3
@@ -115,6 +128,7 @@ public class UI3DManager : MonoBehaviour {
         exerciseThreePanel.gameObject.SetActive(false);
         InGamePanel.gameObject.SetActive(true);
 
+        Debug.Log("OnExerciseThreeButtonsPressed");
 
     }
 
@@ -123,6 +137,8 @@ public class UI3DManager : MonoBehaviour {
         exerciseSelectionPanel.gameObject.SetActive(false);
         exerciseFourPanel.gameObject.SetActive(false);
         InGamePanel.gameObject.SetActive(true);
+        Debug.Log("OnExerciseThreeButtonsPressed");
+
     }
 
 
@@ -134,6 +150,7 @@ public class UI3DManager : MonoBehaviour {
         exerciseThreePanel.gameObject.SetActive(false);
         exerciseFourPanel.gameObject.SetActive(false);
         InGamePanel.gameObject.SetActive(false);
+        Debug.Log("OnExerciseThreeButtonsPressed");
 
     }
 
@@ -143,6 +160,8 @@ public class UI3DManager : MonoBehaviour {
         exerciseSelectionPanel.gameObject.SetActive(false);
         buttonSizeSelectionPanel.gameObject.SetActive(true);
         InGamePanel.gameObject.SetActive(false);
+
+        Debug.Log("OnExerciseThreeButtonsPressed");
     }
 
 
@@ -150,5 +169,7 @@ public class UI3DManager : MonoBehaviour {
     {
         InGamePanel.gameObject.SetActive(false);
         exerciseSelectionPanel.gameObject.SetActive(true);
+        Debug.Log("OnExerciseThreeButtonsPressed");
+
     }
 }

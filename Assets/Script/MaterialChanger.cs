@@ -12,7 +12,7 @@ public class MaterialChanger : MonoBehaviour
     public Material selectedButtonMaterial;
     [Tooltip("The Original Button material usually")]
     public Material[] buttonInactiveMaterial;
-    private Renderer rendrer;
+    public Renderer rendrer;
 
     //public BallMaterials ballMaterials;
 
@@ -21,6 +21,7 @@ public class MaterialChanger : MonoBehaviour
     public Material[] yellowBallMaterials;
     public Material[] flashBallMaterials;
 
+    public bool me;
     public AudioSource AudioSource
     {
         get      

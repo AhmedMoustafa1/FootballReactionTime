@@ -11,8 +11,7 @@ namespace Kandooz
         [SerializeField]
         private int value;
         //[SerializeField]
-        private float lastTime=0;
-        public event Action<int> OnValueChanged;
+
 
         public virtual int Value
         {
@@ -23,20 +22,12 @@ namespace Kandooz
 
             set
             {
-                if (this.value != value)
-                {
-                    this.value = value;
-                    if (OnValueChanged != null)
-                        OnValueChanged(value);
-                }
+                this.value = value;
+
+
             }
         }
-        public void Add(int value){
-            this.Value+=value;            
-        }
-        public static implicit operator int(IntField b)
-        {
-            return b.Value;
-        }
+
+
     }
 }

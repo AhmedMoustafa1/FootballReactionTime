@@ -16,6 +16,11 @@ ModelImporter:
     100020: Signs
     100022: Steel
     100024: //RootNode
+    100026: Cube
+    100028: FootballStadium
+    100030: Torus
+    100032: Torus.001
+    100034: Torus.002
     400000: BlueMetal
     400002: Concrete
     400004: Concrete1
@@ -29,6 +34,11 @@ ModelImporter:
     400020: Signs
     400022: Steel
     400024: //RootNode
+    400026: Cube
+    400028: FootballStadium
+    400030: Torus
+    400032: Torus.001
+    400034: Torus.002
     2100000: PaintedWhiteShader
     2100002: FabricShader
     2100004: DarkRubberShader
@@ -47,6 +57,7 @@ ModelImporter:
     2100030: ConcreteShader
     2100032: SeatFrontShader
     2100034: SeatBackShader
+    2100036: No Name
     2300000: BlueMetal
     2300002: Concrete
     2300004: Concrete1
@@ -59,6 +70,10 @@ ModelImporter:
     2300018: SeatFront
     2300020: Signs
     2300022: Steel
+    2300024: Cube
+    2300026: Torus
+    2300028: Torus.001
+    2300030: Torus.002
     3300000: BlueMetal
     3300002: Concrete
     3300004: Concrete1
@@ -71,6 +86,10 @@ ModelImporter:
     3300018: SeatFront
     3300020: Signs
     3300022: Steel
+    3300024: Cube
+    3300026: Torus
+    3300028: Torus.001
+    3300030: Torus.002
     4300000: FootballPitch
     4300002: Signs
     4300004: Steel
@@ -83,6 +102,10 @@ ModelImporter:
     4300018: Glass
     4300020: SeatFront
     4300022: SeatBack
+    4300024: Torus
+    4300026: Torus.001
+    4300028: Torus.002
+    4300030: Cube
     9500000: //RootNode
   externalObjects:
   - first:

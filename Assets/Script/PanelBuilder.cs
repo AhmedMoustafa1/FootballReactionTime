@@ -52,7 +52,7 @@ public class PanelBuilder : MonoBehaviour {
             //    pooler.PooledObject = panelButtonMale;
 
             //}
-            pooler.PooledObject = gender == 1 ? panelButtonFemale : panelButtonMale;
+            pooler.PooledObject = gender.Value == 1 ? panelButtonFemale : panelButtonMale;
         }
             pooler.SetAllOff();
 
