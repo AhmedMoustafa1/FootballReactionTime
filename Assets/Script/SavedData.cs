@@ -7,6 +7,9 @@ using Kandooz;
 
 public class SavedData : MonoBehaviour {
     public IntField gender;
+    public IntField Formation;
+    public IntField Location;
+
     public static SavedData Instance;
     public string Experiment;
     public string FullName;
@@ -15,6 +18,8 @@ public class SavedData : MonoBehaviour {
     public string Gender;
     public string HandColor;
     public string Court;
+    public string SquadFormation;
+    public string PlayerPosition;
     public string PanelSize;
     public string Age;
     public string CurrentTime;
@@ -295,13 +300,62 @@ public class SavedData : MonoBehaviour {
 
         if (gender.Value == 1)
         {
-            Court = "Orange";
+            Court = "Grass";
         }
         else if (gender.Value == 2)
         {
-            Court = "Pink";
+            Court = "Grass";
         }
       
+    }
+    public void SetFormation()
+    {
+        switch (Formation.Value)
+        {
+            case 0:
+                SquadFormation = "4-4-2";
+                break;
+            case 1:
+                SquadFormation = "4-3-3";
+                break;
+            case 2:
+                SquadFormation = "3-4-3";
+                break;
+            case 3:
+                SquadFormation = "4-4-2-2";
+                break;
+            case 4:
+                SquadFormation = "4-2-3-1";
+                break;
+            case 5:
+                SquadFormation = "GoalKeeper";
+                break;
+            default:
+                SquadFormation = "4-4-2";
+                break;
+        }
+    }
+    public void SetPosition()
+    {
+        if (Formation.Value == 5)
+        {
+            if (Location.Value == 1)
+            {
+                PlayerPosition = "P3";
+            }
+            if (Location.Value == 2)
+            {
+                PlayerPosition = "P2";
+            }
+            if (Location.Value == 3)
+            {
+                PlayerPosition = "P1";
+            }
+        }
+        else
+        {
+            PlayerPosition = (Location.Value).ToString();
+        }
     }
 
     void SetTimeAndDate()
@@ -347,6 +401,8 @@ public class SavedData : MonoBehaviour {
         SetUserAgeAndGender();
         SetUserHandColor();
         SetCourtColor();
+        SetFormation();
+        SetPosition();
         SetTimeAndDate();
         SetExerciseTypeAndTime();
         SetHitCount();
@@ -438,6 +494,8 @@ public class SavedData : MonoBehaviour {
                 TimeOrModality()+ System.Environment.NewLine +
                 LayerCount() +
                 "Court: " + Court + System.Environment.NewLine +
+                "Formation: " + SquadFormation + System.Environment.NewLine +
+                "Postion: " + PlayerPosition + System.Environment.NewLine +
                 "PanelSize: " + PanelSize + System.Environment.NewLine +
                 "Date: " + CurrentDate + System.Environment.NewLine +
                 "Time: " + CurrentTime + System.Environment.NewLine +
