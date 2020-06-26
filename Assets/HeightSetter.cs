@@ -1,14 +1,15 @@
-﻿using System.Collections;
+﻿using Kandooz;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Valve.VR;
 
-public class HeightSetter : MonoBehaviour {
+public class HeightSetter : MonoBehaviour
+{
 
     private SteamVR_TrackedController trackedController;
     private SteamVR_TrackedObject trackedObject;
-    public bool on = false;
 
     public float minHeight;
     public float maxHeight;
@@ -19,53 +20,61 @@ public class HeightSetter : MonoBehaviour {
     public VRButtonSelector leftHand;
     public Transform Test;
     public Text message;
+    public GameObject[] disabledObjects;
 
 
-    void Start () {
 
-         trackedObject = this.GetComponent<SteamVR_TrackedObject>();
+    public BoolField playerPosition;
+    public BoolField panelPosition;
+    public BoolField panelRotation;
+
+    public BoolField panelHeight;
+    void Start()
+    {
+
+        trackedObject = this.GetComponent<SteamVR_TrackedObject>();
         trackedController = gameObject.AddComponent<SteamVR_TrackedController>();
         trackedController.controllerIndex = (uint)trackedObject.index;
+        panelHeight.Value = false;
+        playerPosition.Value = false;
+        panelPosition.Value = false;
+        panelRotation.Value = false;
+
     }
 
-    public void FixedUpdate()
+    void Update()
     {
-    }
-    // Update is called once per frame
-    void Update () {
         var device = SteamVR_Controller.Input((int)trackedObject.index);
 
 
-        // Enabling Height Adjustment
-        // if (device.GetPressUp(EVRButtonId.k_EButton_SteamVR_Touchpad))
-         if (device.GetPressDown(EVRButtonId.k_EButton_A)/*&& device.GetPressDown(EVRButtonId.k_EButton_ApplicationMenu)*/)
-       // if (Input.GetKeyDown(KeyCode.X))
+        if (device.GetPressDown(EVRButtonId.k_EButton_A))
         {
-            on = !on;
-            coolbox.SetActive(on);
-            message.text = "Set Height";
-            rightHand.enabled = !on;
-            leftHand.enabled = !on;
-}
+            panelHeight.Value = !panelHeight.Value;
 
-        if (on)
+            coolbox.SetActive(panelHeight.Value);
+            message.text = "Set Panel Height";
+            rightHand.enabled = !panelHeight.Value;
+            leftHand.enabled = !panelHeight.Value;
+
+            panelPosition.Value = false;
+            playerPosition.Value = false;
+            panelRotation.Value = false;
+
+        }
+        if (panelHeight.Value)
         {
-              if ((device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad).y > 0.1f|| Input.GetKeyDown(KeyCode.W)) &&  Test.position.y <maxHeight)
-          //  if (Input.GetKeyDown(KeyCode.W))
+            if ((device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad).y > 0.1f ) && Test.localPosition.y < maxHeight)
             {
-                Debug.Log("Hoba");
-                Test.Translate(rate*Vector3.up * Time.deltaTime);
+                Test.Translate(rate * Vector3.up * Time.deltaTime);
 
             }
-            if ((device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad).y  < -0.1f || Input.GetKeyDown(KeyCode.S))&& Test.position.y > minHeight)
-          //  if (Input.GetKeyDown(KeyCode.S))
+            if ((device.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad).y < -0.1f ) && Test.localPosition.y > minHeight)
             {
-                Debug.Log("Hela");
-                Test.Translate(rate * Vector3.down*Time.deltaTime);
+                Test.Translate(rate * Vector3.down * Time.deltaTime);
 
             }
         }
-        
-       
+
+
     }
 }

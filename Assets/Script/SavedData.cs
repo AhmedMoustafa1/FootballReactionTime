@@ -168,7 +168,7 @@ public class SavedData : MonoBehaviour {
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx3Assessment ||
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx4Assessment)
         {
-            text = "Assesment";
+            text = "High Balls";
         }
         else
         if (TargetGeneration.Instance.type == ExerciseType.OneLayerEx1Transition ||
