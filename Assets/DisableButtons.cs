@@ -7,13 +7,12 @@ public class DisableButtons : MonoBehaviour {
 
 	public IntField location;
 	public BoxCollider button;
-	public int value1=1;
-	public int value2=2;
-	public int value3=3;
+	public int value=5;
+	
 	// Use this for initialization
 	void Awake () {
 		//button = this.gameObject.GetComponent<BoxCollider>();
-		//DisableButton();
+		DisableButton();
 	}
 	
 	public void Start()
@@ -23,13 +22,15 @@ public class DisableButtons : MonoBehaviour {
 	public void DisableButton()
 	{
 
-		if (location.Value == value1 || location.Value== value2 || location.Value== value3)
+		if (location.Value == value )
 		{
-			button.enabled = false;
+			button.enabled = true;
+
 		}
 		else
 		{
-			button.enabled = true;
+			button.enabled = false;
+			Debug.Log("Disabling" + this.gameObject.name);
 
 		}
 	}

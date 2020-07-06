@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using Kandooz;
 
 public enum ButtonType
 {
@@ -125,6 +126,8 @@ public class TargetGeneration : MonoBehaviour
     private bool started = false;
     [Space(10)]
     public Text excerciseName;
+    public Text excerciseModule;
+
     public Text hitCount;
     public Text missCount;
     public Text wrongCount;
@@ -138,6 +141,8 @@ public class TargetGeneration : MonoBehaviour
 
     [Space(10)]
     public Text UIExcerciseName;
+    public Text UIGameModule;
+
     public Text UIHitCount;
     public Text UIMissCount;
     public Text UIWrongCount;
@@ -180,6 +185,10 @@ public class TargetGeneration : MonoBehaviour
     public LocationSetter locationSetter;
     public PanelSize currentPanelSize;
 
+    public IntField Formation;
+    public IntField Location;
+    private string PlayerPosition;
+    private string SquadFormation;
     private float GreenInstances
     {
         get
@@ -610,9 +619,11 @@ public class TargetGeneration : MonoBehaviour
         pauseWaitTimeText.gameObject.SetActive(false);
 
         UIExcerciseName.transform.parent.gameObject.SetActive(false);
+        UIGameModule.transform.parent.gameObject.SetActive(false);
         excerciseName.transform.parent.gameObject.SetActive(false);
 
-
+        SetFormation();
+        SetPosition();
 
         if (PauseAudio90Sec == null) PauseAudio90Sec = Resources.Load<AudioClip>("90SecondsPause");
         if (PauseAudio40Sec == null) PauseAudio40Sec = Resources.Load<AudioClip>("40SecondsPause");
@@ -679,7 +690,7 @@ public class TargetGeneration : MonoBehaviour
         UIExcerciseName.transform.parent.gameObject.SetActive(true);
         excerciseName.transform.parent.gameObject.SetActive(true);
         excerciseName.text = UIExcerciseName.text = currentExcerciseName;
-
+        excerciseModule.text = UIGameModule.text = "Module: " +SquadFormation + ", Position: "+ PlayerPosition;
         SetUIBoxSize();
 
         hitCount.text = "Hits: 0";
@@ -1934,7 +1945,7 @@ public class TargetGeneration : MonoBehaviour
                 maxCounts = 16 * 3 * blocksCount;
                 break;
             case ExerciseType.OneLayerEx1Transition:
-                currentExcerciseName = "One Layer, " + currentPanelSize + ",  Exercise 1: Transition";
+                currentExcerciseName = "One Layer, " + currentPanelSize + ",  Exercise 1: High Balls";
                 maxCounts = 24 * 3; //was * 2
                 break;
             case ExerciseType.OneLayerEx2Assessment:
@@ -1949,7 +1960,7 @@ public class TargetGeneration : MonoBehaviour
                 //Debug.Log(maxCounts);
                 break;
             case ExerciseType.OneLayerEx2Transition:
-                currentExcerciseName = "One Layer, " + currentPanelSize + ",  Exercise 2: Transition";
+                currentExcerciseName = "One Layer, " + currentPanelSize + ",  Exercise 2: High Balls";
                 maxCounts = 8 * 4;
                 break;
             case ExerciseType.TwoLayerEx3Assessment:
@@ -1957,7 +1968,7 @@ public class TargetGeneration : MonoBehaviour
                 maxCounts = 16 * 3 * 2;
                 break;
             case ExerciseType.TwoLayerEx3Transition:
-                currentExcerciseName = "Two Layer, " + currentPanelSize + ",  Exercise 3: Transition";
+                currentExcerciseName = "Two Layer, " + currentPanelSize + ",  Exercise 3: High Balls";
                 maxCounts = 8 * 3 * 3; // was * 2
                 break;
             case ExerciseType.TwoLayerEx3Blocks:
@@ -1972,7 +1983,7 @@ public class TargetGeneration : MonoBehaviour
 
                 break;
             case ExerciseType.TwoLayerEx4Transition:
-                currentExcerciseName = "Two Layer, " + currentPanelSize + ",  Exercise 4: Transition";
+                currentExcerciseName = "Two Layer, " + currentPanelSize + ",  Exercise 4: High Balls";
                 maxCounts = 32 * 3; // was *2
 
                 break;
@@ -1988,6 +1999,8 @@ public class TargetGeneration : MonoBehaviour
     }
 
     public UnityEvent exEnd;
+
+
     public IEnumerator GameEndedWait()
     {
         //keep last button On (reenable it)
@@ -2300,4 +2313,56 @@ public class TargetGeneration : MonoBehaviour
                 break;
         }
     }
+
+
+    public void SetFormation()
+    {
+        switch (Formation.Value)
+        {
+            case 0:
+                SquadFormation = "4-4-2";
+                break;
+            case 1:
+                SquadFormation = "4-3-3";
+                break;
+            case 2:
+                SquadFormation = "3-4-3";
+                break;
+            case 3:
+                SquadFormation = "4-4-2-2";
+                break;
+            case 4:
+                SquadFormation = "4-2-3-1";
+                break;
+            case 5:
+                SquadFormation = "GoalKeeper";
+                break;
+            default:
+                SquadFormation = "4-4-2";
+                break;
+        }
+    }
+    public void SetPosition()
+    {
+        if (Formation.Value == 5)
+        {
+            if (Location.Value == 1)
+            {
+                PlayerPosition = "P3";
+            }
+            if (Location.Value == 2)
+            {
+                PlayerPosition = "P2";
+            }
+            if (Location.Value == 3)
+            {
+                PlayerPosition = "P1";
+            }
+        }
+        else
+        {
+            PlayerPosition = (Location.Value).ToString();
+        }
+    }
+
 }

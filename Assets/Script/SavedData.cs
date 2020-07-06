@@ -168,7 +168,7 @@ public class SavedData : MonoBehaviour {
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx3Assessment ||
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx4Assessment)
         {
-            text = "High Balls";
+            text = "Assessment";
         }
         else
         if (TargetGeneration.Instance.type == ExerciseType.OneLayerEx1Transition ||
@@ -176,7 +176,7 @@ public class SavedData : MonoBehaviour {
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx3Transition ||
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx4Transition)
         {
-            text = "Transition";
+            text = "High Balls";
         }
 
         #region OLD
@@ -234,7 +234,7 @@ public class SavedData : MonoBehaviour {
         {
             PanelSize = "Large";
         }
-        PanelSize += " P" + UserManagerInput.instance.PlayerStartPosition; // Replace with Position later
+       // PanelSize += " P" + UserManagerInput.instance.PlayerStartPosition; // Replace with Position later
     }
     void SetUserNameAndSurname()
     {
@@ -443,7 +443,7 @@ public class SavedData : MonoBehaviour {
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx3Transition ||
             TargetGeneration.Instance.type == ExerciseType.TwoLayerEx4Transition)
         {
-            value = "Modality:  Transition";
+            value = "Modality:  High Balls";
         }
 
         return value;
@@ -718,7 +718,7 @@ public class SavedData : MonoBehaviour {
         CurrentTime = CurrentTime.Replace(" ", "-");
 
         string layerNumber = isLayered ? "-Layer 2" : "";
-        string fileName = "VR-VLBL-" + Experiment + "-" + SetUpExerciseTypeForName() + "-" + Court + "-" + PanelSize + layerNumber + "-" + LastName + "-" + FirstName + "-" + CurrentDate + "-" + CurrentTime;
+        string fileName = "VR-Soccer-" + Experiment + "-" + SetUpExerciseTypeForName() + "-" + Court + "-" + PanelSize + layerNumber + "-" + LastName + "-" + FirstName + "-" + CurrentDate + "-" + CurrentTime;
 
         Debug.Log(fileName);
         Debug.Log(UserAccountManager.intance.directory);
